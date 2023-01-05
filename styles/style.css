@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+.header{
+    background-color: #fff8f3;
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+.emran-ra{
+    color: orangered
+}
+.home-name{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center ;    
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+.btn-primary{
+    background-color: orange;
+    border: 0;
+    height: 40px;
+    padding: 0 15px;
+    border-radius: 5px;
+}
+.btn-secondary{
+    background-color: lavender;
+    border: 1px solid orange;
+    height: 40px;
+    padding: 0 15px;
+    border-radius: 5px;
+}
+.banner{
+    display: flex;
+}
+.intro{
+    margin-left: 100px;
+}
+.hello{
+    font-size: 35px;
+}
+.name{
+    font-size: 50px;
+}
+.paragraph{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.information{
+    margin: 50px 150px 0;
+    background-color: #fff8f3;
+    padding: 100px;
+    border-radius: 10px;
+}
+.information{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.information h2{
+    text-align: center;
+}
+.information ul{
+    display: flex;
+    justify-content: space-around;
+}
+.information ul div p{
+    text-align: center;
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.some-text{
+    text-align: center;
+    padding: 50px 100px;
+}
+.some-text h2{
+    font-size: 40px;
+}
+.some-text p{
+    padding: 0 70px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.my-card{
+    display: flex;
+    margin: 0 100px;
+    justify-content: center;
+}
+.my-card .card{
+    width: 180px;
+    background-color: #fff8f3;
+    border-radius: 5px;
+    gap: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.my-card .card p{
+    font-size: 18px;
+}
