@@ -107,3 +107,40 @@ nav ul li{
 .my-card .card p{
     font-size: 18px;
 }
+
+.summary-resume h1{
+    text-align: center;
+    font-size: 30px;
+}
+.summary-resume .resume{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 120px;
+}
+.summary-resume .resume .summary{
+    padding: 10px;
+}
+.summary-resume .resume .summary .achivement{
+    font-size: 30px;
+    color: rgb(49, 43, 43);
+}
+.summary-resume .resume .summary h4{
+    font-size: 30px;
+}
+.summary-resume .resume .summary p{
+    font-size: 20px;
+    color: grey;
+}
+.bot-btn{
+    margin-top: 20px;
+    text-align: center;
+}
+.bottom-btn
+{
+    background-color: orange;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: auto 20px;
+    font-size: 16px;
+}
