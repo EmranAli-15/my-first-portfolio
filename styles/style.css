@@ -156,6 +156,10 @@ footer .contact .social p{
     margin-right: 300px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+footer .contact .social a{
+    text-decoration: none;
+    margin-left: 15px;
+}
 footer .contact .massage input{
     height: 50px;
     width: 300px;
